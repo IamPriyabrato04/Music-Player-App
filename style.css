@@ -1,0 +1,65 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.music-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top right, rgba(255,255,255), rgb(244, 228, 134));
+}
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.music-bg{
+    margin-top: 2%;
+    height: 720px;
+    width: 500px;
+    border: 1px solid red;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background: rgb(237, 141, 141);
+    border-radius: 20px;
+}
+.music-bg img{
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+}
+.bottom{
+    width: 350px;
+    border: 1px solid red;
+    height: 50px;
+}
+.bottom input{
+    width: 350px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    height: 70px;
+    width: 350px;
+}
+i{
+    font-size: 40px;
+    color: rgb(9, 0, 105);
+    border: 0;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/63b54826f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="music-container">
+        
+        <div class="music-bg">
+            <h2>Music name</h2>
+        <h4>artist name</h4>
+            <img src="guitar-music-outdoors.jpg" min="54px" max="54px" >
+            <div class="bottom">
+                <audio id="song">
+                    <source src="" id="audioSource" type="audio/mpeg">
+                </audio>
+                <input type="range" name="range" id="progress" min="0" value="0" step="1">
+                <div class="icons">
+                    <i class="fa-solid fa-heart" id="like"></i>    
+                    <i class="fa-solid fa-backward"></i>
+                    <i class="fa-solid fa-play" id="play"></i>
+                    <i class="fa-solid fa-forward" id="nextSong"></i>
+                    <i class="fa-solid fa-volume-high" id="volume"></i>
+                </div>
+        </div>
+        
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
